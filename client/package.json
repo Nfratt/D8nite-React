@@ -1,37 +1,35 @@
 {
-    "name": "d8niteclient",
-    "version": "0.0.1",
-    "description": "d8niteclient",
-    "private": true,
-    "proxy": "http://localhost:3001/",
-    "dependencies": {
-      "bootstrap": "^4.4.1",
-      "bootswatch": "^4.4.1",
-      "jwt-jot": "^1.2.3",
-  
-      "node-sass": "^4.13.1",
-  
-      "react": "^16.12.0",
-      "react-bootstrap": "^1.0.0-beta.16",
-      "react-dom": "^16.12.0",
-      "react-redux": "^7.1.3",
-      "react-scripts": "^3.3.0",
-      "redux": "^4.0.5",
-      "stripe": "^8.0.1"
-    },
-    "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject"
-    },
-    "browserslist": [
-      ">0.2%",
-      "not dead",
-      "not ie <= 11",
-      "not op_mini all"
-    ],
-    "devDependencies": {
-      "redux-devtools": "^3.5.0"
-    }
+  "name": "d8niteclient",
+  "version": "0.0.1",
+  "description": "d8niteclient",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootswatch": "^4.4.1",
+    "jwt-jot": "^1.2.3",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.5",
+    "stripe": "^8.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
   }
+}
