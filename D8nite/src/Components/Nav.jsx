@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
     <div id="page-header">
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href="index.html">D8nite</a>
+        <a className="navbar-brand" href="././public/index.html">D8nite</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -13,7 +13,7 @@ export default function Navbar(props) {
 
           <ul className="navbar-nav ml-auto">
             <li id="nava" className="nav-item">
-              <a id="nava" className="nav-link" href="index.html">Get Started</a>
+              <a id="nava" className="nav-link" href="././public/index.html">Get Started</a>
             </li>
           </ul>
         </div>
