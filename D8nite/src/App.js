@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Components/Nav";
 import Logo from "./Components/Logo";
-import Restaurants from "./Components/Restaurants"
+import Restaurants from "./Components/Restaurants";
+import Events from "./Components/Events";
 
 function App() {
   return (
@@ -17,7 +17,10 @@ function App() {
         <div id="results rest" className="row">
           <Restaurants />
         </div>
-
+        <br />
+        <div id="page resultsEvents" className="row">
+          <Events/>
+        </div>
       </div>
     </div>
 
