@@ -4,6 +4,8 @@ import Navbar from "./Components/Nav";
 import Logo from "./Components/Logo";
 import Restaurants from "./Components/Restaurants";
 import Events from "./Components/Events";
+import Movies from "./Components/Movies"
+import Forecast from "./Components/Forecast";
 
 function App() {
   return (
@@ -21,9 +23,15 @@ function App() {
         <div id="page resultsEvents" className="row">
           <Events/>
         </div>
+        <br/>
+        <div id="resultsMovies" className="row">
+          <Movies/>
+          </div>
       </div>
+      <aside className="weather">
+        <Forecast/>
+      </aside>
     </div>
-
   );
 }
 

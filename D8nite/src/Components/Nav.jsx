@@ -15,9 +15,6 @@ export default function Navbar(props) {
             <li id="nava" className="nav-item">
               <a id="nava" className="nav-link" href="index.html">Get Started</a>
             </li>
-            <li id="nava" className="nav-item">
-              <a id="nava" className="nav-link" href="about.html">About</a>
-            </li>
           </ul>
         </div>
       </nav>
