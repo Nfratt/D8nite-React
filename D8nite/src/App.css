@@ -40,7 +40,6 @@
 body {
   font-family: 'Montserrat';
   /* font-weight: */
-  background-color: #38383bcb;
 }
 
 #title {
@@ -50,7 +49,7 @@ body {
 }
 
 #page-header {
-  background-image: linear-gradient(to bottom right,	 #340b50,#638cfc);
+  background-image: linear-gradient(to bottom right,#638cfc, #0703c0);
   padding-right: 5%;
   padding-left: 5%;
 }
@@ -82,7 +81,7 @@ p {
   color: #8f8f8f;
 }
 #title{
-  background-image: linear-gradient(to bottom right,	  #6682ff, #41c3eb);
+  background-image: linear-gradient(to bottom right,	  #638cfc, #1814f5);
   height:30%;
 }
 
@@ -91,7 +90,7 @@ p {
   padding: 0 0 4.5rem;
 }
 #jtron{
-  background-image: radial-gradient(to top left, #66a8ff,#ff66b3);
+  background-image: radial-gradient(to top left, #638cfc,#0c0b50);
   
 }
 #abt{color: white;
@@ -120,8 +119,9 @@ margin: 5%}
   margin-left: 13%;
 }
 .card-header {
-  background-color: #1d4fd8;
+  background-color: #638cfc;
   color: white;
+
 }
 /* Download buttons */
 .download-button {
