@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "Gruber Team",
+  "author": "Nick Frattaroli",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.0.2",

@@ -1,25 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Components/Nav";
+import Logo from "./Components/Logo";
+import Restaurants from "./Components/Restaurants"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d8nite core">
+      <Navbar />
+      <br />
+      <div id="page results" className="container">
+        {/*     <section style="box-sizing: border-box; width:60%; float:left">  */}
+        <Logo />
+        <br />
+        <div id="results rest" className="row">
+          <Restaurants />
+        </div>
+
+      </div>
     </div>
+
   );
 }
 
